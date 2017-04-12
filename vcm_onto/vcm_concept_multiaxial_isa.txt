@@ -1,0 +1,292 @@
+multi 194 200 # Embryonic_cyst is_a Malformation
+mono  194 193 # Kyste_embryonnaire is_a Kyste
+
+mono  341 335 # Structure_hypophysaire is_a Structure_endocrine
+multi 341 380 # Structure_hypophysaire is_a Structure_nerveuse_centrale
+
+mono  349 313 # Structure_ligamentaire_utérine is_a Structure_de_lutérus
+multi 349 348 # Structure_ligamentaire_utérine is_a Structure_ligamentaire
+
+mono  294 420 # Structure_de_la_paupière is_a Structure_visuelle
+multi 294 275 # Structure_de_la_paupière is_a Structure_cutanée
+
+mono  290 265 # Structure_de_la_langue is_a Structure_buccale
+
+multi 371 370 # Structure_musculaire_de_la_langue is_a Structure_musculaire
+mono  371 290 # Structure_musculaire_de_la_langue is_a Structure_de_la_langue
+
+multi 328 359 # Structure_du_frein_de_la_langue is_a Structure_muqueuse
+mono  328 290 # Structure_du_frein_de_la_langue is_a Structure_de_la_langue
+
+mono  291 265 # Structure_de_la_lèvre is_a Structure_buccale
+multi 291 359 # Structure_de_la_lèvre is_a Structure_muqueuse
+multi 291 275 # Structure_de_la_lèvre is_a Structure_cutanée
+
+multi 280 265 # Structure_cutanée_nasale is_a Structure_buccale
+multi 280 291 # Structure_cutanée_nasale is_a Structure_de_la_lèvre
+multi 280 377 # Structure_cutanée_nasale is_a Structure_nasale
+mono  280 275 # Structure_cutanée_nasale is_a Structure_cutanée
+
+multi 271 270 # Structure_cartilagineuse_laryngée is_a Structure_cartilagineuse_des_voies_respiratoires_supérieures
+mono  271 347 # Structure_cartilagineuse_laryngée is_a Structure_laryngée
+
+multi 272 270 # Structure_cartilagineuse_nasale is_a Structure_cartilagineuse_des_voies_respiratoires_supérieures
+mono  272 377 # Structure_cartilagineuse_nasale is_a Structure_nasale
+
+mono  273 419 # Structure_cartilagineuse_vertébrale is_a Structure_vertébrale
+multi 273 267 # Structure_cartilagineuse_vertébrale is_a Structure_cartilagineuse
+
+mono  274 386 # Structure_crânienne is_a Structure_osseuse
+multi 274 380 # Structure_crânienne is_a Structure_nerveuse_centrale
+
+mono  297 274 # Structure_de_la_suture_crânienne is_a Structure_crânienne
+multi 297 260 # Structure_de_la_suture_crânienne is_a Structure_articulaire
+
+multi 276 265 # Structure_cutanée_de_la_joue is_a Structure_buccale
+mono  276 275 # Structure_cutanée_de_la_joue is_a Structure_cutanée
+
+multi 277 275 # Structure_cutanée_de_loreille is_a Structure_cutanée
+mono  277 263 # Structure_cutanée_de_loreille is_a Structure_auditive
+
+mono  278 331 # Structure_cutanée_du_sein is_a Structure_du_sein
+multi 278 275 # Structure_cutanée_du_sein is_a Structure_cutanée
+
+mono  279 338 # Structure_cutanée_génitale is_a Structure_génitale
+multi 279 275 # Structure_cutanée_génitale is_a Structure_cutanée
+
+multi 334 386 # Structure_du_vestibule_osseux is_a Structure_osseuse
+mono  334 263 # Structure_du_vestibule_osseux is_a Structure_auditive
+
+mono  336 338 # Structure_endocrine_génitale is_a Structure_génitale
+multi 336 335 # Structure_endocrine_génitale is_a Structure_endocrine
+
+mono  332 250 # Structure_du_sphincter_anal is_a Structure_anale
+multi 332 370 # Structure_du_sphincter_anal is_a Structure_musculaire
+
+mono  237 239 # Région_du_foramen_de_Bochdalek is_a Région_du_thorax
+multi 237 229 # Région_du_foramen_de_Bochdalek is_a Région_de_labdomen
+multi 237 235 # Région_du_foramen_de_Bochdalek is_a Région_du_diaphragme
+
+multi 230 229 # Région_de_laine is_a Région_de_labdomen
+mono  230 226 # Région_de_laine is_a Région_de_la_jambe
+
+multi 231 239 # Région_de_laisselle is_a Région_du_thorax
+multi 231 236 # Région_de_laisselle is_a Région_du_dos
+mono  231 234 # Région_de_laisselle is_a Région_du_bras
+
+mono  232 236 # Région_de_lépaule is_a Région_du_dos
+multi 232 234 # Région_de_lépaule is_a Région_du_bras
+
+mono  233 236 # Région_des_tendons_du_dos is_a Région_du_dos
+
+mono  405 265 # Structure_salivaire is_a Structure_buccale
+
+mono  400 399 # Structure_prostatique_de_lurètre is_a Structure_prostatique
+multi 400 312 # Structure_prostatique_de_lurètre is_a Structure_de_lurètre
+
+mono  408 340 # Structure_spongieuse_de_lurètre is_a Structure_génitale_masculine
+multi 408 312 # Structure_spongieuse_de_lurètre is_a Structure_de_lurètre
+
+multi 379 380 # Structure_nerveuse_auditive is_a Structure_nerveuse_centrale
+mono  379 263 # Structure_nerveuse_auditive is_a Structure_auditive
+
+multi 373 376 # Structure_musculaire_du_cricopharynx is_a Structure_musculaire_pharyngée
+mono  373 384 # Structure_musculaire_du_cricopharynx is_a Structure_oesophagienne
+
+multi 372 370 # Structure_musculaire_des_osselets is_a Structure_musculaire
+mono  372 263 # Structure_musculaire_des_osselets is_a Structure_auditive
+
+mono  375 420 # Structure_musculaire_occulaire is_a Structure_visuelle
+multi 375 370 # Structure_musculaire_occulaire is_a Structure_musculaire
+
+multi 374 370 # Structure_musculaire_laryngée is_a Structure_musculaire
+mono  374 347 # Structure_musculaire_laryngée is_a Structure_laryngée
+
+multi 376 370 # Structure_musculaire_pharyngée is_a Structure_musculaire
+mono  376 396 # Structure_musculaire_pharyngée is_a Structure_pharyngée
+
+mono  392 386 # Structure_osseuse_périarticulaire is_a Structure_osseuse
+multi 392 260 # Structure_osseuse_périarticulaire is_a Structure_articulaire
+
+mono  245 385 # Structure_adipeuse_de_lorbite is_a Structure_orbitale
+multi 245 244 # Structure_adipeuse_de_lorbite is_a Structure_adipeuse
+
+mono  247 244 # Structure_adipeuse_sous_cutanée is_a Structure_adipeuse
+multi 247 275 # Structure_adipeuse_sous_cutanée is_a Structure_cutanée
+
+mono  248 246 # Structure_adipeuse_sous_cutanée_du_sein is_a Structure_adipeuse_du_sein
+multi 248 247 # Structure_adipeuse_sous_cutanée_du_sein is_a Structure_adipeuse_sous_cutanée
+
+multi 246 244 # Structure_adipeuse_du_sein is_a Structure_adipeuse
+mono  246 331 # Structure_adipeuse_du_sein is_a Structure_du_sein
+
+multi 241 239 # Région_thoracique_dorsale is_a Région_du_thorax
+mono  241 236 # Région_thoracique_dorsale is_a Région_du_dos
+
+multi 240 229 # Région_lombaire is_a Région_de_labdomen
+mono  240 236 # Région_lombaire is_a Région_du_dos
+
+multi 249 345 # Structure_amygdalienne is_a Structure_immunitaire
+mono  249 396 # Structure_amygdalienne is_a Structure_pharyngée
+
+multi 324 293 # Structure_du_canal_vertébral is_a Structure_de_la_moelle_épinière
+mono  324 419 # Structure_du_canal_vertébral is_a Structure_vertébrale
+
+mono  325 303 # Structure_du_caroncule_duodénale is_a Structure_de_la_vésicule_biliaire
+multi 325 394 # Structure_du_caroncule_duodénale is_a Structure_pancréatique
+multi 325 308 # Structure_du_caroncule_duodénale is_a Structure_de_lintestin_grêle
+
+mono  329 265 # Structure_du_palais is_a Structure_buccale
+multi 329 345 # Structure_du_palais is_a Structure_immunitaire
+
+multi 388 386 # Structure_osseuse_du_palais is_a Structure_osseuse
+mono  388 329 # Structure_osseuse_du_palais is_a Structure_du_palais
+
+mono  412 385 # Structure_tendineuse_orbitale is_a Structure_orbitale
+multi 412 411 # Structure_tendineuse_orbitale is_a Structure_tendineuse
+
+mono  310 302 # Structure_de_lorifice_urétérique is_a Structure_de_la_vessie
+multi 310 311 # Structure_de_lorifice_urétérique is_a Structure_de_luretère
+
+multi 317 386 # Structure_des_osselets is_a Structure_osseuse
+mono  317 263 # Structure_des_osselets is_a Structure_auditive
+
+mono  316 420 # Structure_des_cils is_a Structure_visuelle
+multi 316 397 # Structure_des_cils is_a Structure_pileuse
+multi 316 275 # Structure_des_cils is_a Structure_cutanée
+
+mono  314 335 # Structure_de_lépiphyse is_a Structure_endocrine
+multi 314 380 # Structure_de_lépiphyse is_a Structure_nerveuse_centrale
+
+multi 368 359 # Structure_muqueuse_nasale is_a Structure_muqueuse
+mono  368 377 # Structure_muqueuse_nasale is_a Structure_nasale
+
+multi 369 365 # Structure_muqueuse_pharyngée is_a Structure_muqueuse_digestive
+mono  369 396 # Structure_muqueuse_pharyngée is_a Structure_pharyngée
+
+mono  366 339 # Structure_muqueuse_génitale_féminine is_a Structure_génitale_féminine
+multi 366 359 # Structure_muqueuse_génitale_féminine is_a Structure_muqueuse
+
+mono  367 347 # Structure_muqueuse_laryngée is_a Structure_laryngée
+multi 367 359 # Structure_muqueuse_laryngée is_a Structure_muqueuse
+
+mono  364 302 # Structure_muqueuse_de_la_vessie is_a Structure_de_la_vessie
+multi 364 359 # Structure_muqueuse_de_la_vessie is_a Structure_muqueuse
+
+mono  365 323 # Structure_muqueuse_digestive is_a Structure_digestive
+multi 365 359 # Structure_muqueuse_digestive is_a Structure_muqueuse
+
+mono  361 265 # Structure_muqueuse_buccale is_a Structure_buccale
+multi 361 365 # Structure_muqueuse_buccale is_a Structure_muqueuse_digestive
+
+mono  362 313 # Structure_muqueuse_cervicale is_a Structure_de_lutérus
+multi 362 359 # Structure_muqueuse_cervicale is_a Structure_muqueuse
+
+mono  363 298 # Structure_muqueuse_de_la_trachée is_a Structure_de_la_trachée
+multi 363 359 # Structure_muqueuse_de_la_trachée is_a Structure_muqueuse
+
+mono  360 264 # Structure_muqueuse_bronchique is_a Structure_bronchique
+multi 360 359 # Structure_muqueuse_bronchique is_a Structure_muqueuse
+
+mono  382 420 # Structure_nerveuse_visuelle is_a Structure_visuelle
+multi 382 380 # Structure_nerveuse_visuelle is_a Structure_nerveuse_centrale
+
+mono  387 385 # Structure_osseuse_de_lorbite is_a Structure_orbitale
+multi 387 386 # Structure_osseuse_de_lorbite is_a Structure_osseuse
+
+multi 389 337 # Structure_osseuse_foetale is_a Structure_foetale
+mono  389 386 # Structure_osseuse_foetale is_a Structure_osseuse
+
+multi 357 355 # Structure_lymphoïde_génitale_féminine is_a Structure_lymphoïde
+multi 357 345 # Structure_lymphoïde_génitale_féminine is_a Structure_immunitaire
+mono  357 339 # Structure_lymphoïde_génitale_féminine is_a Structure_génitale_féminine
+
+multi 356 355 # Structure_lymphoïde_de_lappendice is_a Structure_lymphoïde
+mono  356 327 # Structure_lymphoïde_de_lappendice is_a Structure_du_côlon
+multi 356 345 # Structure_lymphoïde_de_lappendice is_a Structure_immunitaire
+
+mono  351 345 # Structure_lymphatique is_a Structure_immunitaire
+
+mono  354 250 # Structure_lymphatique_périanale is_a Structure_anale
+multi 354 351 # Structure_lymphatique_périanale is_a Structure_lymphatique
+
+mono  353 331 # Structure_lymphatique_du_sein is_a Structure_du_sein
+multi 353 351 # Structure_lymphatique_du_sein is_a Structure_lymphatique
+
+mono  352 330 # Structure_lymphatique_du_pénis is_a Structure_du_pénis
+multi 352 351 # Structure_lymphatique_du_pénis is_a Structure_lymphatique
+
+mono  350 419 # Structure_ligamentaire_vertébrale is_a Structure_vertébrale
+multi 350 348 # Structure_ligamentaire_vertébrale is_a Structure_ligamentaire
+
+multi 358 345 # Structure_lymphoïde_pulmonaire is_a Structure_immunitaire
+mono  358 401 # Structure_lymphoïde_pulmonaire is_a Structure_pulmonaire
+
+mono  289 302 # Structure_de_la_jonction_vésico_urétérique is_a Structure_de_la_vessie
+multi 289 311 # Structure_de_la_jonction_vésico_urétérique is_a Structure_de_luretère
+
+mono  288 409 # Structure_de_la_jonction_gastro_jéjunale is_a Structure_stomacale
+multi 288 308 # Structure_de_la_jonction_gastro_jéjunale is_a Structure_de_lintestin_grêle
+
+multi 281 250 # Structure_cutanée_périanale is_a Structure_anale
+mono  281 275 # Structure_cutanée_périanale is_a Structure_cutanée
+
+mono  283 370 # Structure_de_la_coiffe_des_rotateurs is_a Structure_musculaire
+multi 283 260 # Structure_de_la_coiffe_des_rotateurs is_a Structure_articulaire
+
+mono  284 420 # Structure_de_la_conjonctive is_a Structure_visuelle
+multi 284 359 # Structure_de_la_conjonctive is_a Structure_muqueuse
+
+mono  287 409 # Structure_de_la_jonction_gastro_duodénale is_a Structure_stomacale
+multi 287 308 # Structure_de_la_jonction_gastro_duodénale is_a Structure_de_lintestin_grêle
+
+mono  286 420 # Structure_de_la_glande_de_Meibomius is_a Structure_visuelle
+multi 286 275 # Structure_de_la_glande_de_Meibomius is_a Structure_cutanée
+
+multi 262 419 # Structure_articulaire_vertébrale is_a Structure_vertébrale
+mono  262 260 # Structure_articulaire_vertébrale is_a Structure_articulaire
+
+mono  261 263 # Structure_articulaire_des_osselets is_a Structure_auditive
+multi 261 260 # Structure_articulaire_des_osselets is_a Structure_articulaire
+
+mono  267 255 # Structure_cartilagineuse is_a Structure_anatomique_non_innervée
+multi 267 386 # Structure_cartilagineuse is_a Structure_osseuse
+mono  267 260 # Structure_cartilagineuse is_a Structure_articulaire
+mono  267 257 # Structure_cartilagineuse is_a Structure_anatomique_non_vascularisée
+
+mono  268 320 # Structure_cartilagineuse_des_voies_respiratoires is_a Structure_des_voies_respiratoires
+multi 268 267 # Structure_cartilagineuse_des_voies_respiratoires is_a Structure_cartilagineuse
+
+mono  270 322 # Structure_cartilagineuse_des_voies_respiratoires_supérieures is_a Structure_des_voies_respiratoires_supérieures
+multi 270 268 # Structure_cartilagineuse_des_voies_respiratoires_supérieures is_a Structure_cartilagineuse_des_voies_respiratoires
+
+mono  269 321 # Structure_cartilagineuse_des_voies_respiratoires_inférieures is_a Structure_des_voies_respiratoires_inférieures
+multi 269 268 # Structure_cartilagineuse_des_voies_respiratoires_inférieures is_a Structure_cartilagineuse_des_voies_respiratoires
+
+multi 300 327 # Structure_de_la_valve_iléo_cécale is_a Structure_du_côlon
+mono  300 308 # Structure_de_la_valve_iléo_cécale is_a Structure_de_lintestin_grêle
+
+mono  301 420 # Structure_de_la_veine_rétinienne is_a Structure_visuelle
+multi 301 380 # Structure_de_la_veine_rétinienne is_a Structure_nerveuse_centrale
+
+mono  304 250 # Structure_de_la_zone_cloacale is_a Structure_anale
+multi 304 416 # Structure_de_la_zone_cloacale is_a Structure_urinaire
+
+multi 305 386 # Structure_de_lalvéole_dentaire is_a Structure_osseuse
+mono  305 383 # Structure_de_lalvéole_dentaire is_a Structure_odontologique
+
+multi 306 386 # Structure_de_lantre_mastoïdien is_a Structure_osseuse
+mono  306 263 # Structure_de_lantre_mastoïdien is_a Structure_auditive
+
+mono  307 420 # Structure_de_lartère_ophtalmique is_a Structure_visuelle
+multi 307 380 # Structure_de_lartère_ophtalmique is_a Structure_nerveuse_centrale
+
+multi 225 228 # Région_cervicale_dorsale is_a Région_de_la_tête
+mono  225 236 # Région_cervicale_dorsale is_a Région_du_dos
+
+mono  391 386 # Structure_osseuse_nasale is_a Structure_osseuse
+multi 391 377 # Structure_osseuse_nasale is_a Structure_nasale
+
+multi 390 386 # Structure_osseuse_laryngée is_a Structure_osseuse
+mono  390 347 # Structure_osseuse_laryngée is_a Structure_laryngée
+
