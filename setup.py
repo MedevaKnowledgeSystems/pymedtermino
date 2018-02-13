@@ -90,7 +90,7 @@ while i < len(sys.argv):
 
 if len(sys.argv) <= 1: sys.argv.append("install")
 
-if ("build" in sys.argv) or ("install" in sys.argv):
+if ("build" in sys.argv) or ("install" in sys.argv) or ('develop' in sys.argv):
   def do(s):
     print(s)
     r = os.system(s)
