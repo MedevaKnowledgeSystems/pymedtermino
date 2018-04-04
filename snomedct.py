@@ -149,7 +149,14 @@ Additional attributes are available for relations, and are listed in the :attr:`
     pymedtermino.MultiaxialConcept.__init__(self, code, r[0])
     db_cursor.execute("SELECT term FROM Description WHERE conceptId=? and acceptability='preferred'", (code,))
     r = db_cursor.fetchone()
-    self.preferred_syn = r[0]
+    if r is not None:
+        self.preferred_syn = r[0]
+    else:
+        self.preferred_syn = None
+    db_cursor.execute("SELECT term FROM Description WHERE conceptId=? and acceptability='acceptable'", (code,))
+    r = db_cursor.fetchall()
+    self.acceptable_syns = [c[0] for c in r]
+
     
   def __getattr__(self, attr):
     if   attr == "parents":
